@@ -26,9 +26,9 @@ jobs:
 
       - name: Checkout fluffychat
         uses: actions/checkout@v4
-        with:
-          repository: 'krille-chan/fluffychat'
-          path: 'cleanchat'
+        # with:
+        #   repository: 'krille-chan/fluffychat'
+        #   path: 'cleanchat'
 
       - name: Get Flutter version
         run: | 
