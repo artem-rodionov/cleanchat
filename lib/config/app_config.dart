@@ -16,7 +16,7 @@ abstract class AppConfig {
   static const bool allowOtherHomeservers = true;
   static const bool enableRegistration = true;
   static const Color primaryColor =
-      Color.fromARGB(0, 235, 12, 12); //Color(0xFF5625BA);
+      Color.fromARGB(0, 50, 255, 9); //Color(0xFF5625BA);
   static const Color primaryColorLight = Color(0xFFCCBDEA);
   static const Color secondaryColor = Color(0xFF41a2bc);
   static String _privacyUrl =
